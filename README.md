@@ -196,6 +196,13 @@ python scripts/run_analytics.py
 ```
 Or execute [`sql/analytics_queries.sql`](sql/analytics_queries.sql) via `psql` or any BI tool.
 
+### 🌐 Launch Interactive Web Dashboard
+To view live charts, metrics, and filter job postings in your browser:
+```bash
+python scripts/dashboard.py
+```
+Then open **[http://localhost:8000](http://localhost:8000)** in your browser.
+
 ---
 
 ## 📈 Analytics & SQL Insights
